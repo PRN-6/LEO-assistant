@@ -2,7 +2,14 @@
 name = "leo-assistant"
 version = "0.1.0"
 edition = "2024"
+default-run = "leo-assistant"
 
 [dependencies]
 serde = {version = "1.0", features=["derive"]}
 serde_json ="1.0"
+cpal = "0.15"
+vosk = "0.3"
+
+[[bin]]
+name = "list_devices"
+path = "src/list_devices.rs"

@@ -4,7 +4,7 @@ use std::fs; //reacing the file
 
 #[derive(Deserialize)]
 pub struct Config{
-    pub app: HashMap<String ,String>,
+    pub apps: HashMap<String ,String>,
 }
 
 pub fn load_config() -> Config{
@@ -15,6 +15,6 @@ pub fn load_config() -> Config{
         serde_json::from_str(&data)
         .expect("Invalid json");
 
-    Config{apps};
+    Config{apps}
 
 }

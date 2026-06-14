@@ -1,0 +1,5 @@
+[build]
+rustflags = ["-L", "/home/leo/Downloads/vosk-linux-x86_64-0.3.45"]
+
+[env]
+VOSK_PATH = "/home/leo/Downloads/vosk-linux-x86_64-0.3.45"

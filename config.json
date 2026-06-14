@@ -1,7 +1,13 @@
 {
     "vscode": "code",
     "firefox": "firefox",
+    "brave": "brave",
+    "close_brave": "pkill brave",
+    "whatsdesk": "whatsdesk",
     "terminal": "gnome-terminal",
+    "volume_up": "pactl set-sink-volume @DEFAULT_SINK@ +10%",
+    "volume_down": "pactl set-sink-volume @DEFAULT_SINK@ -10%",
+    "antigravity": "/home/leo/Downloads/Antigravity\\ IDE/antigravity-ide",
     "shutdown": "shutdown now",
     "sleep": "systemctl suspend",
     "restart": "reboot now"
