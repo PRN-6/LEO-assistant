@@ -1,0 +1,8 @@
+{
+    "vscode": "code",
+    "firefox": "firefox",
+    "terminal": "gnome-terminal",
+    "shutdown": "shutdown now",
+    "sleep": "systemctl suspend",
+    "restart": "reboot now"
+}
